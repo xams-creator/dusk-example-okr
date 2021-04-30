@@ -28,7 +28,7 @@ export default {
                 payload.id = `comment-${uuidv4()}`;
                 payload.created_time = genCreatedTime();
                 payload.author = "David Zhu";
-                payload.avatar = '/okr/images/zhu.png';
+                payload.avatar = `${process.env.BASE_URL}/okr/images/zhu.png`;
                 // payload.value
                 return {
                     ...state,
