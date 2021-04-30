@@ -3,29 +3,22 @@ on:
         branches: [ master ]
 
 jobs:
-    build:
+
+    build-and-deploy:
         runs-on: ubuntu-latest
-
-        strategy:
-            matrix:
-                node-version: [12.x]
-
         steps:
         - name: Checkout
           uses: actions/checkout@v2
-              #    - uses: actions/setup-node@v2
-              #      with:
-              #        node-version: ${{ matrix.node-version }}
+          with:
+              persist-credentials: false
 
-              #    - run: npm -v
-              #    - run: npm i
-              #    - run: xams -v
-            #    - run: npm run build && cd build && xams serve
+        - name: Install and Build
+          run: |
+              npm install && npm run build
 
-        - name: Build and Deploy
-          uses: JamesIves/github-pages-deploy-action@master
-          env:
+        - name: Deploy
+          uses: JamesIves/github-pages-deploy-action@releases/v3
+          with:
               ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
               BRANCH: gh-pages
               FOLDER: build
-              BUILD_SCRIPT: npm install && npm run build
