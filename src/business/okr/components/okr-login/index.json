@@ -1,0 +1,82 @@
+{
+    "header": {
+        "href": "#"
+    },
+    "sidebox": {
+        "title": "dusk admin",
+        "subtitle": "后台管理平台",
+        "welcome": {
+            "hello": "你好",
+            "text": "1111111",
+            "remark": "222222222222222222。"
+        },
+        "footer": {
+            "title": "dusk-okr",
+            "text": "okr管理平台"
+        }
+    },
+    "form": {
+        "items": [
+            {
+                "href": "http://localhost:3333/#/user/login",
+                "icon": "wechat",
+                "style": {
+                    "color": "#46d800",
+                    "fontSize": 32
+                }
+            },
+            {
+                "href": "http://localhost:3333/#/user/login",
+                "icon": "qq-circle",
+                "style": {
+                    "color": "#00b0fb",
+                    "fontSize": 32
+                }
+            },
+            {
+                "href": "http://localhost:3333/#/user/login",
+                "icon": "github",
+                "style": {
+                    "color": "#0a0203",
+                    "fontSize": 32
+                }
+            },
+            {
+                "href": "http://localhost:3333/#/user/login",
+                "icon": "wechat",
+                "style": {
+                    "color": "#6b96b5",
+                    "fontSize": 32
+                }
+            }
+        ]
+    },
+    "footer": {
+        "items": [
+            {
+                "href": "http://localhost:3333/#/user/login",
+                "title": "© xams.xyz.com"
+            },
+            {
+                "href": "#/about_us",
+                "title": "关于我们"
+            },
+            {
+                "href": "#/terms",
+                "title": "使用条款"
+            },
+            {
+                "href": "#/help",
+                "title": "帮助文档"
+            },
+            {
+                "href": "#/self_services",
+                "title": "在线自助服务"
+            },
+            {
+                "href": "#/user/activate",
+                "title": "重发激活邮件"
+            }
+        ]
+    }
+}

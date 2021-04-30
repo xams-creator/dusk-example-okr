@@ -1,0 +1,46 @@
+
+.objective-creator {
+  margin-top: 12px;
+
+  display: flex;
+  align-items: center;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgb(31 35 41 / 5%);
+  background-color: #fff;
+  font-size: 16px;
+  color: #8f959e;
+  padding-left: 16px;
+
+  .objective-creator-body {
+    cursor: pointer;
+
+    .objective-creator-icon {
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 12px;
+      width: 30px;
+      height: 30px;
+      border-radius: 16px;
+      background-color: #eff0f1;
+      color: #8f959e;
+      text-align: center;
+      line-height: 32px;
+
+      & > svg {
+        position: relative;
+        top: 2px;
+      }
+    }
+
+    &:hover {
+      color: #3370ff;
+      .objective-creator-icon {
+        background-image: linear-gradient(315deg, #3370ff, #82a7fc);
+        color: #fff;
+      }
+    }
+
+  }
+}
+

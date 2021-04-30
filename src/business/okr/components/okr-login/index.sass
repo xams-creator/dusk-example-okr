@@ -1,0 +1,243 @@
+.wso.router-login
+    .header
+        text-align: center
+
+        img
+            height: 60px
+
+    .container
+        width: 1040px
+        padding: 0 20px
+        margin: 0 auto
+
+        .body
+            display: -webkit-flex
+            display: -moz-box
+            display: -ms-flexbox
+            display: flex
+            margin: auto
+            margin-top: 50px
+            position: relative
+            -webkit-box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.3)
+            box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.3)
+
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+                overflow: hidden
+                background: #fff
+                z-index: -1
+
+            .sidebox,
+            .form
+                width: 500px
+                min-height: 564px
+
+            .sidebox
+                color: #fff
+                //&,& > *
+                //    color: #fff
+                //
+
+                position: relative
+                padding: 80px 80px 48px
+                background: -webkit-gradient(linear, left bottom, left top, from(#3a485a), to(#607089))
+                background: -webkit-linear-gradient(bottom, #3a485a 0%, #607089 100%)
+                background: linear-gradient(0deg, #3a485a 0%, #607089 100%)
+
+                &::before, &::after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    bottom: 0
+                    right: 0
+
+                &::before
+                    background: url("./images/left-1.png") no-repeat 0 0
+
+                &::after
+                    background: url("./images/left-2.png") no-repeat right bottom
+
+            .sidebox-header
+                .sidebox-logo
+                    margin-bottom: 16px
+                    display: none
+
+                    .sidebox-logo-container
+                        margin-left: -1px
+                        width: 60px
+                        height: 60px
+                        display: -webkit-box
+                        display: -webkit-flex
+                        display: -moz-box
+                        display: -ms-flexbox
+                        display: flex
+                        -webkit-box-align: center
+                        -webkit-align-items: center
+                        -moz-box-align: center
+                        -ms-flex-align: center
+                        align-items: center
+                        -webkit-box-pack: center
+                        -webkit-justify-content: center
+                        -moz-box-pack: center
+                        -ms-flex-pack: center
+                        justify-content: center
+                        border-radius: 50%
+                        background: #C71D23
+
+                        img
+                            width: 50px
+                            border-radius: 50%
+
+                h1
+                    font-size: 40px
+                    min-height: 1rem
+                    color: #fff
+
+                h2
+                    font-weight: normal
+                    font-size: 1.714rem
+                    color: #fff
+
+            .sidebox-content
+                flex: 1
+
+                .sidebox-content-container
+                    color: #fff
+                    font-size: 14px
+                    margin-top: 46px
+
+            .sidebox-footer
+                font-size: 14px
+                padding-top: 40px
+                margin-top: 24px
+                border-top: 1px solid rgba(255, 255, 255, 0.2)
+
+                a
+                    color: #fff
+
+                strong::after
+                    content: 'hot'
+                    position: absolute
+                    font-size: 12px
+                    padding: 2px 6px
+                    border-radius: 1px
+                    margin-top: -16px
+                    margin-left: -4px
+                    background-color: #C71D23
+                    -webkit-transform: scale(0.84)
+                    transform: scale(0.84)
+
+            .form
+                .form-container
+                    height: 100%
+                    padding: 64px 75px 48px
+                    position: relative
+                    display: -webkit-box
+                    display: -webkit-flex
+                    display: -moz-box
+                    display: -ms-flexbox
+                    display: flex
+                    -webkit-box-orient: vertical
+                    -webkit-box-direction: normal
+                    -webkit-flex-direction: column
+                    -moz-box-orient: vertical
+                    -moz-box-direction: normal
+                    -ms-flex-direction: column
+                    flex-direction: column
+                    -webkit-box-pack: justify
+                    -webkit-justify-content: space-between
+                    -moz-box-pack: justify
+                    -ms-flex-pack: justify
+                    justify-content: space-between
+
+                .form-header
+                    display: -webkit-box
+                    display: -webkit-flex
+                    display: -moz-box
+                    display: -ms-flexbox
+                    display: flex
+                    margin-bottom: 24px
+                    -webkit-box-pack: justify
+                    -webkit-justify-content: space-between
+                    -moz-box-pack: justify
+                    -ms-flex-pack: justify
+                    justify-content: space-between
+                    -webkit-box-align: end
+                    -webkit-align-items: flex-end
+                    -moz-box-align: end
+                    -ms-flex-align: end
+                    align-items: flex-end
+
+                .divider
+                    display: table
+                    white-space: nowrap
+                    height: auto
+                    line-height: 1
+                    text-align: center
+                    font-size: 1rem
+
+                    &::before
+                        background-position: right 1em top 50%
+
+                    &::after
+                        background-position: left 1em top 50%
+
+                    &::before, &::after
+                        content: ''
+                        display: table-cell
+                        position: relative
+                        top: 50%
+                        width: 50%
+                        background-repeat: no-repeat
+                        background-image: url("data:image/pngbase64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OThBRDY4OUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OThBRDY4QUNDMTYxMUU0OUE3NUVGOEJDMzMzMjE2NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5OEFENjg3Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5OEFENjg4Q0MxNjExRTQ5QTc1RUY4QkMzMzMyMTY3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+VU513gAAADVJREFUeNrs0DENACAQBDBIWLGBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC")
+
+                .form-oauth
+                    margin-top: 44px
+
+                .oauth-list
+                    .item
+                        padding-top: 1.3em
+                        padding-bottom: 0.3em
+                        display: inline-block
+                        padding-left: 50px
+
+                        a
+                            color: #40485b
+
+    .footer
+        margin-top: 70px
+        text-align: center
+
+        .footer-item
+            a
+                color: #8c92a4
+
+        .footer-item + .footer-item
+            margin-left: 8px
+
+    a
+        text-decoration: none
+        cursor: pointer
+        color: #005980
+
+    .login-form-forgot
+        float: right
+
+    .login-form-button
+        width: 100%
+        height: 37px
+
+        font-size: 18px
+        line-height: 22px
+        padding: 8px 26px
+        font-weight: 500
+        color: #fff
+/* background: #fe7300 */
+
+

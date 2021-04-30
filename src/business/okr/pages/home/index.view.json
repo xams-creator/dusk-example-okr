@@ -1,0 +1,665 @@
+{
+  "configs": {
+    "OBJECTIVES_STATUS": [
+      {
+        "args": {
+          "className": ""
+        },
+        "value": 1,
+        "label": "正常"
+      },
+      {
+        "args": {
+          "className": "warning",
+          "style": {
+            "borderColor": "#f58d2c"
+          }
+        },
+        "value": 2,
+        "label": "有风险"
+      },
+      {
+        "args": {
+          "className": "danger",
+          "style": {
+            "borderColor": "red"
+          }
+        },
+        "value": 3,
+        "label": "已延期"
+      }
+    ]
+  },
+  "data": {
+    "templates": [
+      {
+        "title": "Company",
+        "cards": [
+          {
+            "title": "Research and improve customer satisfaction",
+            "status": 1,
+            "progress": 0,
+            "owner": "zhu",
+            "children": [
+              {
+                "title": "Exceed Net Promoter Score (NPS) of over 8.0",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get 1000 survey responses to annual satisfaction survey",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Conduct 50 phone interviews with top customers",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Conduct 15 phone interviews with recently churned customers",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Present an action plan of 10 improvements for next quarter",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Simplify & clarify our product, messaging, presentation of things we do",
+            "children": [
+              {
+                "title": "25 on-site user-testing sessions to understand key product misunderstandings",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "10 tests of our recent infographics and slide decks for customer understanding",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get 1000 answers to an online user survey sent to all last quarter's signups",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Conduct a team hackathon to create and publish full portfolio of product materials",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Present an action plan for next quarter's messaging improvements",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Increase recurring revenues",
+            "children": [
+              {
+                "title": "Reach monthly recurring revenue ($ MRR) of $250000",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase the share of monthly subscriptions vs one-time contracts sold to 85%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase average subscription size to at least $295 per month",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase annual renewals to 75%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Reduce churn % to less than 1% monthly",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Finish raising new capital for our growth needs",
+            "children": [
+              {
+                "title": "E-mail and phone outreach to 100 VCs and seed funds",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get at least 30 second contact meetings or conference calls",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Solicit at least 3 term sheets of our minimum required terms",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Close an investment round with the minimum of $10 million pre-money",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Product management",
+        "cards": [
+          {
+            "title": "Successfully launch version 3 of our main product",
+            "status": 1,
+            "progress": 0,
+            "owner": "zhu",
+            "children": [
+              {
+                "title": "Get over 10000 new signups",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get published product reviews in over 15 publications",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Achieve sign-up to % trial ratio of over 25%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Achieve trial to % paid ratio of over 50%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Activate user-testing of our product",
+            "children": [
+              {
+                "title": "Conduct at least 21 face to face user testing & interview sessions",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Receive at least 15 video interviews from Usertesting.com",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Research, analyze & understand what our users and non-users really think",
+            "children": [
+              {
+                "title": "Sales team to conduct 50 phone interviews with key accounts",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Support team to conduct 50 phone interviews with churned accounts",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Product management to interview 25 external team leaders (non-users)",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Design team conduct 30 web-based user testing sessions on new and old users",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Implement new 360-degree product planning process",
+            "children": [
+              {
+                "title": "Document clear role division between sales, marketing, design and development",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Decide on and document the process of input methods to and from sales, marketing, design and development back into product management",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Integrate user testing into all activities in product planning and design phase",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Integrate user testing into pre-launch testing phase",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sales",
+        "cards": [
+          {
+            "title": "Achieve record revenues while increasing profitability",
+            "status": 1,
+            "progress": 0,
+            "owner": "zhu",
+            "children": [
+              {
+                "title": "Hit quarterly revenue of over $100000",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Start sales in 2 new countries and achieve first quarter revenues totaling over $100000",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase gross profit % margin from 23% to 54%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Kickstart sales process activity indicator improvements",
+            "children": [
+              {
+                "title": "Increase calls per salesperson to 6300 per quarter",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Achieve at least 315 demo calls per salesperson per quarter",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "At least 33% of online signups % reached via calling them back",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Have each salesperson spend at least 84 hours per month on support chat",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Increase recurring revenues",
+            "children": [
+              {
+                "title": "Reach monthly recurring revenue ($ MRR) of $250k",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase the share of monthly subscriptions vs one-time contracts sold to 85%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase average subscription size to at least $295 per month",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Increase % annual renewals to 75%",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Reduce churn % to less than 1% monthly",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Collect more accurate sales leads data",
+            "children": [
+              {
+                "title": "Create the list of lead metrics and scripted questions to collect in CRM",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Make sure at least 75% of leads have the obligatory question answers filled in",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "With development automate the data collection from our backend to CRM",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Redesign signup form to ask for 3 new obligatory screening questions",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Marketing",
+        "cards": [
+          {
+            "title": "Simplify & clarify our product, messaging, presentation of things we do",
+            "status": 1,
+            "progress": 0,
+            "owner": "zhu",
+            "children": [
+              {
+                "title": "25 on-site user-testing sessions to understand key product misunderstandings",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "10 tests of our recent infographics and slide decks for customer understanding",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get 1000 answers to an online user survey sent to all last quarter's signups",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Conduct a team hackathon to create and publish full portfolio of product materials",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Present an action plan for next quarter's messaging improvements",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Activate user-testing of our content",
+            "children": [
+              {
+                "title": "Talk to 10 external editors to receive feedback on our articles and infographics",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Conduct 21 face to face content testing & interview sessions with users",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Organize an online survey with min 100 answers to rate our various content",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Achieve record metrics in all areas of marketing",
+            "children": [
+              {
+                "title": "170000 website visitors",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "23000 signups",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "7500 trials",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "3500 new paid customers",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Maximum paid user acquisition cost of $25",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "title": "Improve our content and its distribution",
+            "children": [
+              {
+                "title": "Implement 12 new channels/mediums where to post old or new content",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "Get 60 marketing takeaways from reading 1h of marketing materials a day",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              },
+              {
+                "title": "1 test from a product review site for paid promotion",
+                "status": 1,
+                "owner": "zhu",
+                "progress": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "objectives1": [
+      {
+        "id": "objective-6fc7bd35-0a26-444b-a956-1541d5aa9374",
+        "index": 1,
+        "title": "目标-001",
+        "status": 1,
+        "progress": 40,
+        "children": [
+          {
+            "id": "kr-e6e7519c-ae67-45f0-8d20-bf8ac7f0b770",
+            "objective_id": "objective-6fc7bd35-0a26-444b-a956-1541d5aa9374",
+            "title": "目标-001-关键结果-001",
+            "status": 1,
+            "progress": 20,
+            "owner": "zhu",
+            "index": 1,
+            "created_time": "2021-04-21 16:35:24"
+          },
+          {
+            "id": "kr-cc7ff2f4-d74d-4aff-b08b-24ffc9fa5c5f",
+            "objective_id": "objective-6fc7bd35-0a26-444b-a956-1541d5aa9374",
+            "title": "目标-001-关键结果-002",
+            "status": 2,
+            "progress": 40,
+            "owner": "zhu",
+            "index": 2,
+            "created_time": "2021-04-21 16:35:24"
+          },
+          {
+            "id": "kr-30c84678-1794-4494-b883-3215987e19f2",
+            "objective_id": "objective-6fc7bd35-0a26-444b-a956-1541d5aa9374",
+            "title": "目标-001-关键结果-003",
+            "status": 3,
+            "progress": 60,
+            "owner": "zhu",
+            "index": 3,
+            "created_time": "2021-04-21 16:35:24"
+          }
+        ],
+        "owner": "zhu",
+        "created_time": "2021-04-21 16:35:24"
+      },
+      {
+        "id": "objective-49dc3e9b-572e-45fe-b052-212d885eb73e",
+        "index": 2,
+        "title": "目标-002",
+        "status": 1,
+        "owner": "zhu",
+        "progress": 75,
+        "children": [
+          {
+            "id": "kr-3e397e15-032a-4798-98db-5c06f124f367",
+            "objective_id": "objective-49dc3e9b-572e-45fe-b052-212d885eb73e",
+            "title": "目标-002-关键结果-001",
+            "status": 1,
+            "progress": 50,
+            "owner": "zhu",
+            "index": 1,
+            "created_time": "2021-04-21 16:35:51"
+          },
+          {
+            "id": "kr-cd72e4ad-ecd7-4a94-9156-2054947395e4",
+            "objective_id": "objective-49dc3e9b-572e-45fe-b052-212d885eb73e",
+            "title": "目标-002-关键结果-002",
+            "status": 2,
+            "progress": 100,
+            "owner": "zhu",
+            "index": 2,
+            "created_time": "2021-04-21 16:35:51"
+          }
+        ],
+        "created_time": "2021-04-21 16:35:51"
+      },
+      {
+        "id": "objective-b0163268-a754-4e7c-952b-6f4372c60d61",
+        "index": 3,
+        "title": "目标-003",
+        "status": 1,
+        "progress": 50,
+        "owner": "zhu",
+        "children": [
+          {
+            "id": "kr-d088fe82-5704-4807-9c96-9ed759ab1604",
+            "objective_id": "objective-b0163268-a754-4e7c-952b-6f4372c60d61",
+            "title": "目标-003-关键结果-001",
+            "status": 1,
+            "progress": 0,
+            "owner": "zhu",
+            "index": 1,
+            "created_time": "2021-04-21 16:36:29"
+          },
+          {
+            "id": "kr-a26700b8-6944-4357-9895-3bba390f8b1a",
+            "objective_id": "objective-b0163268-a754-4e7c-952b-6f4372c60d61",
+            "title": "目标-003-关键结果-002",
+            "status": 1,
+            "progress": 100,
+            "owner": "zhu",
+            "index": 2,
+            "created_time": "2021-04-21 16:36:29"
+          },
+          {
+            "id": "kr-102b0ea0-d832-4b38-bbf1-4a7dfa5e875a",
+            "objective_id": "objective-b0163268-a754-4e7c-952b-6f4372c60d61",
+            "title": "目标-003-关键结果-003",
+            "status": 2,
+            "progress": 60,
+            "owner": "zhu",
+            "index": 3,
+            "created_time": "2021-04-21 16:36:29"
+          },
+          {
+            "id": "kr-efb9ea17-45f9-4731-921e-fc245afd9015",
+            "objective_id": "objective-b0163268-a754-4e7c-952b-6f4372c60d61",
+            "title": "目标-003-关键结果-004",
+            "status": 3,
+            "progress": 40,
+            "owner": "zhu",
+            "index": 4,
+            "created_time": "2021-04-21 16:36:29"
+          }
+        ],
+        "created_time": "2021-04-21 16:36:29"
+      }
+    ],
+    "objectives": []
+  }
+}
