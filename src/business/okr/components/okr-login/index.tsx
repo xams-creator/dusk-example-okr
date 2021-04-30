@@ -83,7 +83,7 @@ export class LoginHeader extends React.Component {
         return (
             <div className="header" style={{paddingTop: 28}}>
                 <a href={viewModel.header.href}>
-                    <img alt="logo" src={"/okr/images/logo.png"}/>
+                    <img alt="logo" src={`${process.env.BASE_URL}/okr/images/logo.png`}/>
                 </a>
             </div>
         );

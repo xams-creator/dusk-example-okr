@@ -281,28 +281,28 @@ class DrawerForm extends React.Component<any> {
                                 <Select bordered={false} style={{width: 150}}>
                                     <Select.Option value="zhu">
                                         <Avatar
-                                            src={'/okr/images/zhu.png'}
+                                            src={`${process.env.BASE_URL}/okr/images/zhu.png`}
                                             size={'small'}
                                         />
                                         <span style={{paddingLeft: 10}}>David Zhu</span>
                                     </Select.Option>
                                     <Select.Option value="yuchen">
                                         <Avatar
-                                            src={'/okr/images/yuchen.png'}
+                                            src={`${process.env.BASE_URL}/okr/images/yuchen.png`}
                                             size={'small'}
                                         />
                                         <span style={{paddingLeft: 10}}>yu chen</span>
                                     </Select.Option>
                                     <Select.Option value="kobe">
                                         <Avatar
-                                            src={'/okr/images/kobe.png'}
+                                            src={`${process.env.BASE_URL}/okr/images/kobe.png`}
                                             size={'small'}
                                         />
                                         <span style={{paddingLeft: 10}}>Kobe Yang</span>
                                     </Select.Option>
                                     <Select.Option value="creator">
                                         <Avatar
-                                            src={'/okr/images/creator.png'}
+                                            src={`${process.env.BASE_URL}/okr/images/creator.png`}
                                             size={'small'}
                                         />
                                         <span style={{paddingLeft: 10}}>The Guy</span>
@@ -390,32 +390,28 @@ class DrawerForm extends React.Component<any> {
                                                 <Select bordered={false} style={{width: 150}}>
                                                     <Select.Option value="zhu">
                                                         <Avatar
-                                                            // style={{ backgroundColor: '#f56a00', verticalAlign: 'middle' }}
-                                                            src={'/okr/images/zhu.png'}
+                                                            src={`${process.env.BASE_URL}/okr/images/zhu.png`}
                                                             size={'small'}
                                                         />
                                                         <span style={{paddingLeft: 10}}>David Zhu</span>
                                                     </Select.Option>
                                                     <Select.Option value="yuchen">
                                                         <Avatar
-                                                            // style={{ backgroundColor: '#f56a00', verticalAlign: 'middle' }}
-                                                            src={'/okr/images/yuchen.png'}
+                                                            src={`${process.env.BASE_URL}/okr/images/yuchen.png`}
                                                             size={'small'}
                                                         />
                                                         <span style={{paddingLeft: 10}}>yu chen</span>
                                                     </Select.Option>
                                                     <Select.Option value="kobe">
                                                         <Avatar
-                                                            // style={{ backgroundColor: '#f56a00', verticalAlign: 'middle' }}
-                                                            src={'/okr/images/kobe.png'}
+                                                            src={`${process.env.BASE_URL}/okr/images/kobe.png`}
                                                             size={'small'}
                                                         />
                                                         <span style={{paddingLeft: 10}}>Kobe Yang</span>
                                                     </Select.Option>
                                                     <Select.Option value="creator">
                                                         <Avatar
-                                                            // style={{ backgroundColor: '#f56a00', verticalAlign: 'middle' }}
-                                                            src={'/okr/images/creator.png'}
+                                                            src={`${process.env.BASE_URL}/okr/images/creator.png`}
                                                             size={'small'}
                                                         />
                                                         <span style={{paddingLeft: 10}}>The Guy</span>

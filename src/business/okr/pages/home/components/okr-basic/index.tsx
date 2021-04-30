@@ -54,7 +54,7 @@ class OkrAppHomeBasic extends React.Component<any> {
                     <>
                         <Avatar
                             // style={{ backgroundColor: '#f56a00', verticalAlign: 'middle' }}
-                            src={`/okr/images/${value}.png`}
+                            src={`${process.env.BASE_URL}/okr/images/${value}.png`}
                         />
                     </>
                 )

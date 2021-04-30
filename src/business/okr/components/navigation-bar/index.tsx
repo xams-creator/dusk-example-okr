@@ -26,7 +26,7 @@ class NavigationBar extends React.Component<any, any> {
                     name: "我的OKR",
                     style: {
                         // backgroundImage: `url(${projectImage})`,
-                        backgroundImage: `url(/okr/images/navigation/my-okr.png)`
+                        backgroundImage: `url(${process.env.BASE_URL}/okr/images/navigation/my-okr.png)`
                     },
                     path: '/okr/home/basic?code=xams',
                     active: false,
@@ -34,7 +34,7 @@ class NavigationBar extends React.Component<any, any> {
                 {
                     name: "组织",
                     style: {
-                        backgroundImage: 'url(/okr/images/navigation/organization.png)'
+                        backgroundImage: `url(${process.env.BASE_URL}/okr/images/navigation/organization.png)`
                     },
                     path: '/okr/todo',
                     active: false,
@@ -42,7 +42,7 @@ class NavigationBar extends React.Component<any, any> {
                 {
                     name: "团队OKR",
                     style: {
-                        backgroundImage: 'url(/okr/images/navigation/team-okr.png)'
+                        backgroundImage: `url(${process.env.BASE_URL}/okr/images/navigation/team-okr.png)`
                     },
                     path: '/okr/app2',
                     active: false,
@@ -50,7 +50,7 @@ class NavigationBar extends React.Component<any, any> {
                 {
                     name: "对齐视图",
                     style: {
-                        backgroundImage: 'url(/okr/images/navigation/insights.png)',
+                        backgroundImage: `url(${process.env.BASE_URL}/okr/images/navigation/insights.png)`,
                     },
                     path: '/okr/home/tree',
                     active: false,
@@ -108,7 +108,7 @@ class NavigationBar extends React.Component<any, any> {
         return (
             <header className="navigation-bar">
                 <section className="navigation-bar-logo">
-                    <div style={{backgroundImage: `url(/okr/images/navigation/logo.png)`}}/>
+                    <div style={{backgroundImage: `url(${process.env.BASE_URL}/okr/images/navigation/logo.png)`}}/>
                 </section>
                 <section className="navigation-bar-title">
                     <div>
@@ -206,7 +206,7 @@ class NavigationBar extends React.Component<any, any> {
                                 src={
                                     <>
                                         <img
-                                            src={'/okr/images/zhu.png'}
+                                            src={`${process.env.BASE_URL}/okr/images/zhu.png`}
                                             alt={''}
                                         />
                                         <EllipsisOutlined className="navigation-bar-avatar-detail-icon"/>

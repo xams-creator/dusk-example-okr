@@ -34,28 +34,28 @@ const Editor = ({onChange, onSubmit, submitting, value}) => (
             >
                 <Mentions.Option value="David Zhu">
                     <Avatar
-                        src={'/okr/images/zhu.png'}
+                        src={`${process.env.BASE_URL}/okr/images/zhu.png`}
                         size={'small'}
                     />
                     <span style={{paddingLeft: 10}}>David Zhu</span>
                 </Mentions.Option>
                 <Mentions.Option value="yuchen">
                     <Avatar
-                        src={'/okr/images/yuchen.png'}
+                        src={`${process.env.BASE_URL}/okr/images/yuchen.png`}
                         size={'small'}
                     />
                     <span style={{paddingLeft: 10}}>yu chen</span>
                 </Mentions.Option>
                 <Mentions.Option value="Kobe Yang">
                     <Avatar
-                        src={'/okr/images/kobe.png'}
+                        src={`${process.env.BASE_URL}/okr/images/kobe.png`}
                         size={'small'}
                     />
                     <span style={{paddingLeft: 10}}>Kobe Yang</span>
                 </Mentions.Option>
                 <Mentions.Option value="The Guy">
                     <Avatar
-                        src={'/okr/images/creator.png'}
+                        src={`${process.env.BASE_URL}/okr/images/creator.png`}
                         size={'small'}
                     />
                     <span style={{paddingLeft: 10}}>The Guy</span>
@@ -98,7 +98,7 @@ class CommentView extends React.Component<any> {
                 type: 'okr/home/comment/create',
                 payload: {
                     author: 'David Zhu',
-                    avatar: '/okr/images/zhu.png',
+                    avatar: `${process.env.BASE_URL}/okr/images/zhu.png`,
                     content: <p>{value}</p>,
                     datetime: genCreatedTime(),
                 }
@@ -121,8 +121,8 @@ class CommentView extends React.Component<any> {
                 <Comment
                     avatar={
                         <Avatar
-                            src="/okr/images/zhu.png"
-                            alt="Han Solo"
+                            src={`${process.env.BASE_URL}/okr/images/zhu.png`}
+                            alt="Zhu"
                         />
                     }
                     content={

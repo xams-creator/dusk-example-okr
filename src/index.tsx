@@ -8,9 +8,7 @@ import Dusk, {RouterView} from '@xams-framework/dusk';
 import createLoading from './configuration/plugins/dusk-loading';
 import createValidator from './configuration/plugins/app-validator';
 
-
 import './index.less';
-
 
 const app = new Dusk({
     container: '#root',
