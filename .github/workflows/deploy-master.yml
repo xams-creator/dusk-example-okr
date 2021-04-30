@@ -17,6 +17,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: npm -v
-    - run: xams -v
     - run: npm i
-    - run: cd build && xams serve
+    - run: xams -v
+    - run: npm run build && cd build && xams serve
