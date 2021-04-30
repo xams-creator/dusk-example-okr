@@ -8,15 +8,15 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [12.x]
 
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    
-    - run: echo npm -v
-    
-#     - run: npm run build
-#     - run: cd build && xams serve
+
+    - run: npm -v
+    - run: xams -v
+    - run: npm i
+    - run: cd build && xams serve
