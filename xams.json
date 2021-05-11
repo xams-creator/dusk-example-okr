@@ -1,0 +1,13 @@
+{
+  "webpack": {
+    "devServer": {
+      "contentBasePublicPath": "/dusk-example-okr/",
+      "publicPath": "/dusk-example-okr",
+
+      "historyApiFallback": {
+        "disableDotRule": true,
+        "index": "/dusk-example-okr/"
+      }
+    }
+  }
+}
