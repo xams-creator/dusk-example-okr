@@ -13,7 +13,7 @@ import './index.less';
 const app = new Dusk({
     container: '#root',
     history: {
-        mode: 'hash'
+        mode: 'hash',
     },
     render({route}) {
         return (
